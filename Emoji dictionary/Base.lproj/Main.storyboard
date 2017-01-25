@@ -77,6 +77,9 @@
                             <constraint firstItem="16B-G8-Hh3" firstAttribute="top" secondItem="PnM-R1-BIT" secondAttribute="bottom" constant="79" id="hzk-Of-JWT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emojiLabel" destination="16B-G8-Hh3" id="PKB-9B-Wdg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="62B-6f-CYF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
