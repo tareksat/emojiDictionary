@@ -3,13 +3,15 @@ import UIKit
 
 class defentionViewController: UIViewController {
     
-    var emoji = "No emoji"
+    var emoji = Emoji()
     
     @IBOutlet weak var emojiLabel: UILabel!
+    @IBOutlet weak var emojiDef: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        emojiLabel.text = emoji
+        emojiLabel.text = emoji.symbol
+        emojiDef.text = emoji.def
         
     }
     

@@ -62,9 +62,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cloud" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XDg-Cc-kcu">
-                                <rect key="frame" x="137.5" y="410.5" width="100" height="46"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cloud" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XDg-Cc-kcu">
+                                <rect key="frame" x="16" y="403" width="343" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="XFD-EM-uiV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -72,12 +75,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="XDg-Cc-kcu" firstAttribute="centerX" secondItem="LfU-Q2-kQv" secondAttribute="centerX" id="8aL-0D-3wp"/>
-                            <constraint firstItem="XDg-Cc-kcu" firstAttribute="top" secondItem="16B-G8-Hh3" secondAttribute="bottom" constant="80" id="Bq7-EX-GJc"/>
+                            <constraint firstItem="XDg-Cc-kcu" firstAttribute="top" secondItem="16B-G8-Hh3" secondAttribute="bottom" constant="72.5" id="Bq7-EX-GJc"/>
                             <constraint firstItem="16B-G8-Hh3" firstAttribute="centerX" secondItem="LfU-Q2-kQv" secondAttribute="centerX" id="GVS-ru-mge"/>
+                            <constraint firstItem="XDg-Cc-kcu" firstAttribute="centerX" secondItem="LfU-Q2-kQv" secondAttribute="centerX" id="NFs-l2-JQ1"/>
                             <constraint firstItem="16B-G8-Hh3" firstAttribute="top" secondItem="PnM-R1-BIT" secondAttribute="bottom" constant="79" id="hzk-Of-JWT"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="emojiDef" destination="XDg-Cc-kcu" id="UCb-Fv-ShI"/>
                         <outlet property="emojiLabel" destination="16B-G8-Hh3" id="PKB-9B-Wdg"/>
                     </connections>
                 </viewController>
