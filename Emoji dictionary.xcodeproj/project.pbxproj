@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85F1734F1E38DE750014005A /* defentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F1734E1E38DE750014005A /* defentionViewController.swift */; };
 		85FD0C111E38CBE100C4CCC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD0C101E38CBE100C4CCC4 /* AppDelegate.swift */; };
 		85FD0C131E38CBE100C4CCC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD0C121E38CBE100C4CCC4 /* ViewController.swift */; };
 		85FD0C161E38CBE100C4CCC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85FD0C141E38CBE100C4CCC4 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		85F1734E1E38DE750014005A /* defentionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = defentionViewController.swift; sourceTree = "<group>"; };
 		85FD0C0D1E38CBE100C4CCC4 /* Emoji dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85FD0C101E38CBE100C4CCC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85FD0C121E38CBE100C4CCC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				85FD0C101E38CBE100C4CCC4 /* AppDelegate.swift */,
 				85FD0C121E38CBE100C4CCC4 /* ViewController.swift */,
+				85F1734E1E38DE750014005A /* defentionViewController.swift */,
 				85FD0C141E38CBE100C4CCC4 /* Main.storyboard */,
 				85FD0C171E38CBE100C4CCC4 /* Assets.xcassets */,
 				85FD0C191E38CBE100C4CCC4 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F1734F1E38DE750014005A /* defentionViewController.swift in Sources */,
 				85FD0C131E38CBE100C4CCC4 /* ViewController.swift in Sources */,
 				85FD0C111E38CBE100C4CCC4 /* AppDelegate.swift in Sources */,
 			);
@@ -299,6 +303,7 @@
 				85FD0C211E38CBE100C4CCC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
